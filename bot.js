@@ -1243,7 +1243,8 @@ break;
            showAdAttribution: true
        }}}}}}, {}) 
     });
-            break;
+			
+			break;
             
 case "xnxxdl": {
 	if (!text) return m.reply(`Enter Url`)
@@ -1256,16 +1257,18 @@ gss.sendMessage(m.chat, { caption: `  *XNXX DL*
 ⌛ *Duration:* ${xn.duration}
 📽 *Visual Quality:* ${xn.quality}`, video: {url: xn.url_dl} }, { quoted: m })
 }
-break;
+break
 
-case 'xnxxsh': {
+
+case 'xnxxsearch': {
 	if (!text) return m.reply(`Enter Query`)
 	const fg = require('api-dylux')
 	let res = await fg.xnxxSearch(text)
             let ff = res.result.map((v, i) => `${i + 1}┃ *Title* : ${v.title}\n*Link:* ${v.link}\n`).join('\n') 
               if (res.status) m.reply(ff)
               }
-              break;
+              break
+			
               
 case 'xvsh': {
   if (!text) return m.reply(`Enter Query`);
