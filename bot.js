@@ -363,7 +363,7 @@ var goutamload = [
 `ㅤʟᴏᴀᴅɪɴɢ
 《 █▒▒▒▒▒▒▒▒▒▒▒》10%`,
 `ㅤʟᴏᴀᴅɪɴɢ
-《 X-DL BOT HERE》100%`,
+《 STATUS SEEN BOT HERE》100%`,
 "ʟᴏᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇ"
 ]
 let { key } = await client.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'}, {quoted: m})//Pengalih isu
@@ -554,7 +554,7 @@ const speechURL = `https://matrix-api-service.up.railway.app/speech?text=${encod
         switch (command) {  
           case "help":  
           case "menu":
-          case "xdl":
+          case "x":
           case "saduwa":  
   if (isBan) return m.reply(replai.banned);	 	
 await doReact("👀");
@@ -595,7 +595,6 @@ ${readMore}
 ┆❏.gpt Hi
 ╰–––––––––––––––༓ 
 ╭––『 *Owner*  』
-┆❏.script 🅕
 ┆❏.settings 🅕
 ┆❏.ping 🅕 
 ┆❏.alive 🅕 
@@ -605,16 +604,6 @@ ${readMore}
 ╭––『 *Sticker menu* 』 
 ┆❏.sticker🅕 
 ╰–––––––––––––––༓
-╭––『 *Search menu* 』ﾠ 
-┆❏.xnxxsh
-┆❏.xvsh
-┆❏.xnxx
-╰–––––––––––––––༓ 
-╭––『 *Downloader* 』 
-┆❏.xnxxdl
-┆❏.xvdl
-┆❏.xnxx
-╰–––––––––––––––༓
           `; 
 
 client.sendMessage(m.chat, {
@@ -623,10 +612,10 @@ gifPlayback:true,
 caption: helpmenu,
 contextInfo: {
 externalAdReply: {
-title: `MatrixCoder`, 
+title: `Sandun Mihiranga`, 
 body: 'Follow Me',
-thumbnailUrl: "https://telegra.ph/file/acc0bd65f6a5e8a1ee0c6.jpg", //https://telegra.ph/file/acc0bd65f6a5e8a1ee0c6.jpg
-sourceUrl: "https://github.com/azanazhar", 
+thumbnailUrl: "https://i.imgur.com/k5WUtL3.jpeg", //https://telegra.ph/file/acc0bd65f6a5e8a1ee0c6.jpg
+sourceUrl: "https://wa.me/+94742943716?text=Hi+I+need+status+seen+bot", 
 mediaType: 1,
 renderLargerThumbnail: true
 }} 
@@ -1216,7 +1205,7 @@ case 'chat':
             m.reply(txtChatbot);
 break;            
             
-            case "sc": case "script": case "scbot":  
+            /*case "sc": case "script": case "scbot":  
             // m.reply("https://github.com/MatrixCoder0101/GSS-Botwa");  
     await loading();;;
              let api = 'https://api.github.com/repos/MatrixCoder0101/GSS-BETA'
@@ -1244,9 +1233,9 @@ break;
        }}}}}}, {}) 
     });
 			
-			break;
+			break;*/
             
-case "xnxxdl": {
+		/*case "xnxxdl": {
 	if (!text) return m.reply(`Enter Url`)
         if (!text.includes('xnxx.com')) return m.reply(`Enter an xnxx link`)
         const fg = require('api-dylux')
@@ -1268,6 +1257,7 @@ case 'xnxxsh': {
               if (res.status) m.reply(ff)
               }
               break
+			/////
 			
               
 case 'xvsh': {
@@ -1298,7 +1288,7 @@ case 'xvsh': {
     console.error(error);
     m.reply('Error fetching results from the API.');
   }
-} break;
+} break;*/
             
 case 'true':
 case 'truecaller':
