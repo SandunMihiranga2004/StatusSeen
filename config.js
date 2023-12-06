@@ -13,9 +13,9 @@ global.antiCall= false;
 global.OwnerNumber = ["94742943716"];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
 global.ownertag = ["94742943716"];
 global.OwnerName = "Sandun Mihiranga";
-global.BotName = "X-DL";
-global.author = "Matrix | Sandun";                               //Do not change.
-global.BotSourceCode = "https://github.com/MatrixCoder"; //Do not change.
+global.BotName = "Status Seen";
+global.author = "Sandun Mihiranga";                               //Do not change.
+global.BotSourceCode = "https://wa.me/+94742943716?text=Hi"; //Do not change.
 
 
 //
