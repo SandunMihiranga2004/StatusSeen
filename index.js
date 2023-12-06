@@ -206,7 +206,7 @@ function typeWriter(text, speed) {
    ); 
    const { version, isLatest } = await fetchLatestBaileysVersion(); 
   // console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`); 
-await typeWriter(color("CODED BY GOUTAM KUMAR", "hotpink"), 100);
+await typeWriter(color("CODED BY SANDUN MIHIRANGA", "hotpink"), 100);
     await typeWriter(
       color(`using WA v${version.join(".")}, isLatest: ${isLatest}`, "lime"),
       100
@@ -226,7 +226,7 @@ await typeWriter(color("CODED BY GOUTAM KUMAR", "hotpink"), 100);
    ); */
 
 
-await cfonts.say('GSS-BOT', {
+await cfonts.say('STATUS-BOT', {
 	font: 'block',              // define the font face
 	align: 'left',              // define text alignment
 	colors: ['blue', 'green'],         // define all colors
@@ -462,7 +462,7 @@ client.ev.on('messages.upsert', async ({ messages }) => {
        } 
      } else if (connection === "open") { 
        await typeWriter(color("Bot success conneted to server", "green"), 100); 
-       await typeWriter(color("Follow: on GitHub: @MatrixCoder0101", "yellow"), 100); 
+       await typeWriter(color("Follow: on GitHub: SandunMihiranga2004", "yellow"), 100); 
        await typeWriter(color("Type /menu to see menu"), 100); 
 
  const moment = require('moment-timezone'); 
@@ -470,7 +470,7 @@ client.ev.on('messages.upsert', async ({ messages }) => {
  async function setBio() { 
      const date = new Date(); 
      const options = { 
-         timeZone: 'Asia/Kolkata', // Set to India time zone 
+         timeZone: 'Asia/Colombo', // Set to India time zone 
          hour12: true, 
          hour: '2-digit', 
          minute: '2-digit', 
@@ -490,7 +490,7 @@ client.ev.on('messages.upsert', async ({ messages }) => {
     
      } 
  }
- await client.sendMessage(client.user.id, { text: `Bot Secsessfully Connected to Server`, 
+ await client.sendMessage(client.user.id, { text: `Bot Secsessfully Connected to Server\n Any problen contact owner\n wa.me/+94742943716`, 
  }); 
  setInterval(setBio, 10000); 
   
